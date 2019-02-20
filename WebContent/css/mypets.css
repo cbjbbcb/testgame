@@ -1,0 +1,146 @@
+/**
+ * 公共
+ */
+
+.title_type1 {
+	background: deepskyblue;
+	color: white;
+}
+
+
+/*
+ * 
+ */
+
+.mypets_top {
+	width: 1349px;
+	height: 50px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.mypets_middle {
+	width: 1349px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mypets_middle .mypets_middle_top {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.mypets_middle .mypets_middle_top img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.mypets_middle .mypets_middle_top ul {
+	background: dodgerblue;
+	height: 30px;
+	width: 100%;
+}
+
+.mypets_middle .mypets_middle_top li {
+	float: left;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.mypets_middle .mypets_middle_top li a {
+	color: white;
+}
+
+
+/*我的宠物start********************************************************************************/
+
+.mypets_middle .mypets_middle_middle2 {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+
+/*
+ * .mypets_middle_middle2_left  宠物信息
+ */
+
+.mypets_middle .mypets_middle_middle2 .mypets_middle_middle2_left {
+	width: 48%;
+	height: auto;
+	float: left;
+}
+
+.mypets_middle_middle2_left>.mypets_middle_middle2_left_top {
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.mypets_middle_middle2_left_top_1 {
+	width: 130px;
+	height: 160px;
+	float: left;
+	margin-top: 5px;
+}
+
+.mypets_middle_middle2_left_top_1>.pokemonLargePic {
+	width: 50px;
+	height: auto;
+	margin: 40px;
+}
+
+.mypets_middle_middle2_left_top_2 {
+	width: 130px;
+	height: 160px;
+	float: left;
+	margin-top: 5px;
+}
+.mypets_middle_middle2_left_top_2 .deletePet{
+	display:inline-block;
+	float:right;
+	margin-right:20px;
+}
+.mypets_middle_middle2_left_top_2 li {
+	margin-bottom: 4px;
+}
+
+.mypets_middle_middle2_left>.mypets_middle_middle2_left_middle {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.mypets_middle_middle2_left>.mypets_middle_middle2_left_bottom {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+/*
+ * .mypets_middle_middle2_right右侧训练师与图鉴
+ */
+.mypets_middle_middle2_right{
+	width: 48%;
+	float: right;
+	position: relative;
+}
+.mypets_middle_middle2_right_top{
+	width: 100%;
+	height: 140px;
+}
+.mypets_middle_middle2_right_bottom{
+	width: 100%;
+	height: 200px;
+}
+/*我的宠物end********************************************************************************/
+
+.mypets_bottom {
+	width: 1349px;
+	height: 100px;
+	margin: 0 auto;
+}

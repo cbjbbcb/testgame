@@ -1,0 +1,64 @@
+/*
+ * public css
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px arial;
+	color: #555;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+a:active{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+input,
+textarea,
+button {
+	outline: none;
+}
+
+
+/*
+ * 清除浮动
+ * 参考： http://blog.csdn.net/nnnaix/article/details/54849680
+ */
+
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
